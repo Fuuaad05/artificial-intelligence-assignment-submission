@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mastermind – Strictly Correct</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Mastermind AI</h1>
+<p>Each row is one guess. Black dots show correct color and position.</p>
+
+<div class="board">
+
+  <!-- Guess 1 -->
+  <div class="row">
+    <div class="pegs">
+      <div class="peg red"></div>
+      <div class="peg red"></div>
+      <div class="peg red"></div>
+      <div class="peg red"></div>
+    </div>
+    <div class="feedback"></div>
+  </div>
+
+  <!-- Guess 2 -->
+  <div class="row">
+    <div class="pegs">
+      <div class="peg red"></div>
+      <div class="peg blue"></div>
+      <div class="peg red"></div>
+      <div class="peg green"></div>
+    </div>
+    <div class="feedback"></div>
+  </div>
+
+  <!-- Guess 3 -->
+  <div class="row">
+    <div class="pegs">
+      <div class="peg red"></div>
+      <div class="peg blue"></div>
+      <div class="peg green"></div>
+      <div class="peg yellow"></div>
+    </div>
+    <div class="feedback"></div>
+  </div>
+
+</div>
+
+<p class="solved">✔ Code cracked — game ends here</p>
+
+<script src="script.js"></script>
+</body>
+</html>
